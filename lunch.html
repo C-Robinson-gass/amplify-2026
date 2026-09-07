@@ -141,6 +141,31 @@
   #lb-x:hover { opacity:1; }
   @keyframes lbIn { from{opacity:0;transform:scale(0.88)} to{opacity:1;transform:scale(1)} }
   footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--border); text-align:center; font-size:11px; color:var(--muted); }
+
+  .key {
+    background: var(--elevated);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-bottom: 28px;
+  }
+  .key-title {
+    font-size: 10px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 1px; color: var(--muted); margin-bottom: 10px;
+  }
+  .key-items {
+    display: flex; flex-wrap: wrap; gap: 8px 20px;
+  }
+  .key-item {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 12px; color: var(--white);
+  }
+  .key-swatch {
+    width: 28px; height: 14px; border-radius: 4px;
+    border: 1px solid; flex-shrink: 0;
+    display: inline-block;
+  }
+
 </style>
 </head>
 <body>
@@ -153,6 +178,20 @@
   </div>
 </div>
 <nav><a href="index.html" class="">Full Day</a><a href="preshow.html" class="">Pre-Show</a><a href="morning.html" class="">Morning Show</a><a href="lunch.html" class="active">Lunch & Reco</a><a href="afternoon.html" class="">Afternoon Show</a><a href="crew.html" class="">Crew & Tech</a></nav>
+<div class="key">
+  <div class="key-title">Colour Key</div>
+  <div class="key-items">
+    <div class="key-item"><span class="key-swatch" style="background:rgba(74,158,255,0.25);border-color:rgba(74,158,255,0.5)"></span><span class="key-label">Performance / Walk-On</span></div>
+    <div class="key-item"><span class="key-swatch" style="background:rgba(255,226,147,0.2);border-color:rgba(255,226,147,0.5)"></span><span class="key-label">Speech / Presenter</span></div>
+    <div class="key-item"><span class="key-swatch" style="background:rgba(126,194,126,0.2);border-color:rgba(126,194,126,0.5)"></span><span class="key-label">Recognition / Achievers</span></div>
+    <div class="key-item"><span class="key-swatch" style="background:rgba(180,138,255,0.2);border-color:rgba(180,138,255,0.5)"></span><span class="key-label">Award / Prize</span></div>
+    <div class="key-item"><span class="key-swatch" style="background:rgba(255,100,100,0.18);border-color:rgba(255,100,100,0.45)"></span><span class="key-label">VT / Video Playback</span></div>
+    <div class="key-item"><span class="key-swatch" style="background:rgba(80,200,255,0.18);border-color:rgba(80,200,255,0.45)"></span><span class="key-label">News Desk Segment</span></div>
+    <div class="key-item"><span class="key-swatch" style="background:rgba(255,150,50,0.15);border-color:rgba(255,150,50,0.4)"></span><span class="key-label">DJ Set</span></div>
+    <div class="key-item"><span class="key-swatch" style="background:rgba(255,255,255,0.03);border-color:rgba(255,255,255,0.08)"></span><span class="key-label">Logistics / Setup / Holding</span></div>
+  </div>
+</div>
+
 <div class="sh"><span class="sh-pill">Slot 12 — Lunch Intro</span><div class="sh-line"></div></div>
 <div class="row speech"><div class="time-col">12:12</div><div class="dur-col">5m</div><div class="body"><div class="title"><span class="badge b-speech">WES</span>Wes introduces lunch</div><div class="detail">Mic 1</div><div class="speakers"><div class="spk"><div><div class="spk-name">Wes</div><div class="spk-role">Host / MC</div></div></div></div></div></div>
 <div class="sh"><span class="sh-pill">Lunch Break — 12:30–14:30</span><div class="sh-line"></div></div>
