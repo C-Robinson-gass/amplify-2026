@@ -166,6 +166,22 @@
     display: inline-block;
   }
 
+
+  .cam-note {
+    display: flex; align-items: flex-start; gap: 6px;
+    margin-top: 5px; padding: 5px 8px;
+    background: rgba(255, 180, 0, 0.07);
+    border: 1px solid rgba(255, 180, 0, 0.2);
+    border-radius: 6px;
+    font-size: 11px; color: #ffcc44;
+    line-height: 1.4;
+  }
+  .cam-note::before {
+    content: '🎥';
+    flex-shrink: 0;
+    font-size: 12px;
+  }
+
 </style>
 </head>
 <body>
@@ -194,13 +210,16 @@
 
 <div class="sh"><span class="sh-pill">Slot 15 — Nick</span><div class="sh-line"></div></div>
 <div class="row speech"><div class="time-col">14:47</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-speech">WES</span>Wes introduces Nick</div></div></div>
-<div class="row perf"><div class="time-col">14:48</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Nick Walk On — START CLOCK 00:08:00</div><div class="detail">All 6 cold sparks · Shiny Happy People?</div><div class="speakers"><div class="spk"><div><div class="spk-name">Nick</div><div class="spk-role">Presenter</div></div></div></div></div></div>
+<div class="row perf"><div class="time-col">14:48</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Nick Walk On — START CLOCK 00:08:00</div><div class="detail">All 6 cold sparks · Shiny Happy People?</div><div class="speakers"><div class="spk"><div><div class="spk-name">Nick</div><div class="spk-role">Presenter
+<div class="cam-note">Nick on stage</div></div></div></div></div></div></div>
 <div class="row speech"><div class="time-col">14:48</div><div class="dur-col">8m</div><div class="body"><div class="title"><span class="badge b-speech">NICK</span>Nick presents [00:08:00]</div><div class="detail">Mic 2</div><div class="speakers"><div class="spk"><div><div class="spk-name">Nick</div><div class="spk-role">Presenter · Mic 2</div></div></div></div></div></div>
 <div class="row perf"><div class="time-col">14:56</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK OFF</span>Nick walk off / Paul appears</div></div></div>
 <div class="sh"><span class="sh-pill">Slot 16 — Gem</span><div class="sh-line"></div></div>
 <div class="row speech"><div class="time-col">14:56</div><div class="dur-col">45s</div><div class="body"><div class="title"><span class="badge b-speech">PAUL</span>Paul introduces Gem</div><div class="detail">Mic 3</div><div class="speakers"><div class="spk"><div><div class="spk-name">Paul Falcao</div><div class="spk-role">Presenter · Mic 3</div></div></div></div></div></div>
-<div class="row perf"><div class="time-col">14:57</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Gem Walk On — START CLOCK 00:09:00</div><div class="detail">Espresso · ⚠️ Do not miss her — she was missed in Amp25!</div><div class="speakers"><div class="spk"><div><div class="spk-name">Gem</div><div class="spk-role">Presenter</div></div></div></div></div></div>
-<div class="row speech"><div class="time-col">14:57</div><div class="dur-col">9m</div><div class="body"><div class="title"><span class="badge b-speech">GEM</span>Gem presents [~09:00] incl. VT_16_CONNECTORS mid-speech</div><div class="detail">Mic 4 · Lots of great photos needed</div><div class="speakers"><div class="spk"><div><div class="spk-name">Gem</div><div class="spk-role">Presenter · Mic 4</div></div></div></div></div></div>
+<div class="row perf"><div class="time-col">14:57</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Gem Walk On — START CLOCK 00:09:00</div><div class="detail">Espresso · ⚠️ Do not miss her — she was missed in Amp25!</div><div class="speakers"><div class="spk"><div><div class="spk-name">Gem</div><div class="spk-role">Presenter
+<div class="cam-note">⚠️ Lots of great shots of Gem — she was missed at Amp25! Do not miss her</div></div></div></div></div></div></div>
+<div class="row speech"><div class="time-col">14:57</div><div class="dur-col">9m</div><div class="body"><div class="title"><span class="badge b-speech">GEM</span>Gem presents [~09:00] incl. VT_16_CONNECTORS mid-speech</div><div class="detail">Mic 4 · Lots of great photos needed</div><div class="speakers"><div class="spk"><div><div class="spk-name">Gem</div><div class="spk-role">Presenter · Mic 4
+<div class="cam-note">⚠️ Lots of great shots of Gem — she was missed at Amp25!</div></div></div></div></div></div></div>
 <div class="row perf"><div class="time-col">15:06</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK OFF</span>Gem walk off / Harli-Rae comes off simultaneously</div></div></div>
 <div class="sh"><span class="sh-pill">Slot 17 — Partner Panel (Harli-Rae)</span><div class="sh-line"></div></div>
 <div class="row speech"><div class="time-col">15:07</div><div class="dur-col">1m</div><div class="body"><div class="title"><span class="badge b-speech">HARLI-RAE</span>Harli-Rae intro to panel — START CLOCK 00:14:00</div><div class="detail">Mic 5 · Brings on Lauren, Kai, Claire together</div><div class="speakers"><div class="spk"><div><div class="spk-name">Harli-Rae</div><div class="spk-role">Panel Host · Mic 5</div></div></div></div></div></div>
@@ -214,23 +233,30 @@
 <div class="sh"><span class="sh-pill">Slot 19 — Shout Outs</span><div class="sh-line"></div></div>
 <div class="row speech"><div class="time-col">15:30</div><div class="dur-col">4m</div><div class="body"><div class="title"><span class="badge b-speech">AI-LENG</span>Ai-Leng — Shout Outs [04:00]</div><div class="detail">Mic 11</div><div class="speakers"><div class="spk"><div><div class="spk-name">Ai-Leng</div><div class="spk-role">Presenter · Mic 11</div></div></div></div></div></div>
 <div class="sh"><span class="sh-pill">Slot 20 — Audience Testimonials</span><div class="sh-line"></div></div>
-<div class="row speech"><div class="time-col">15:34</div><div class="dur-col">12m</div><div class="body"><div class="title"><span class="badge b-speech">TESTIMONIALS</span>Hannah — 3 audience interviews [00:12:00]</div><div class="detail">3 pre-marked spots · Ends: throws to Paul · Wes Mic 1 + HH for interviews · RF Camera in audience</div><div class="speakers"><div class="spk"><div><div class="spk-name">Hannah</div><div class="spk-role">Presenter</div></div></div></div></div></div>
-<div class="sh"><span class="sh-pill">Slot 21 — Jules & Win £20K Draw</span><div class="sh-line"></div></div>
+<div class="row speech"><div class="time-col">15:34</div><div class="dur-col">12m</div><div class="body"><div class="title"><span class="badge b-speech">TESTIMONIALS</span>Hannah — 3 audience interviews [00:12:00]</div><div class="detail">3 pre-marked spots · Ends: throws to Paul · Wes Mic 1 + HH for interviews · RF Camera in audience</div><div class="speakers"><div class="spk"><div><div class="spk-name">Hannah</div><div class="spk-role">Presenter
+<div class="cam-note">RF Camera in audience · 3 pre-marked spots for cameras &amp; lighting</div></div></div></div></div></div></div>
+<div class="sh"><span class="sh-pill">Slot 21 — Jules & Win £20K Draw</span><div class="sh-line">
+<div class="cam-note">All 6 cold sparks on winner announcement</div></div></div>
 <div class="row speech"><div class="time-col">15:46</div><div class="dur-col">1m</div><div class="body"><div class="title"><span class="badge b-speech">PAUL</span>Paul introduces Jules</div><div class="detail">Mic 12 (Hannah mic)</div></div></div>
-<div class="row perf"><div class="time-col">15:47</div><div class="dur-col">30s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Jules Walk On — START CLOCK 00:05:00</div><div class="detail">500 Miles · Jules Mic 13</div><div class="speakers"><div class="spk"><div><div class="spk-name">Jules</div><div class="spk-role">Presenter · Mic 13</div></div></div></div></div></div>
+<div class="row perf"><div class="time-col">15:47</div><div class="dur-col">30s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Jules Walk On — START CLOCK 00:05:00</div><div class="detail">500 Miles · Jules Mic 13</div><div class="speakers"><div class="spk"><div><div class="spk-name">Jules</div><div class="spk-role">Presenter · Mic 13
+<div class="cam-note">Jules walk-out and speaker shots</div></div></div></div></div></div></div>
 <div class="row speech"><div class="time-col">15:47</div><div class="dur-col">1m30</div><div class="body"><div class="title"><span class="badge b-speech">JULES</span>Jules tees up £20k giveaway → cues backstage to Stuart</div></div></div>
-<div class="row vt"><div class="time-col">15:49</div><div class="dur-col">45s</div><div class="body"><div class="title"><span class="badge b-vt">VT</span>VT_18_£20K_GIVEAWAY [00:45]</div><div class="detail">VT Audio P4 · Side screens needed</div></div></div>
+<div class="row vt"><div class="time-col">15:49</div><div class="dur-col">45s</div><div class="body"><div class="title"><span class="badge b-vt">VT</span>VT_18_£20K_GIVEAWAY [00:45]</div><div class="detail">VT Audio P4 · Side screens needed
+<div class="cam-note">Side screens needed for VT</div></div></div></div>
 <div class="row award"><div class="time-col">15:49</div><div class="dur-col">2m</div><div class="body"><div class="title"><span class="badge b-award">£20K DRAW</span>Kris walks on with envelope (no mic) → Jules reads winner</div><div class="detail">All 6 cold sparks fire when winner announced · Kris leaves after handing envelope</div></div></div>
 <div class="row perf"><div class="time-col">15:51</div><div class="dur-col">30s</div><div class="body"><div class="title"><span class="badge b-perf">WALK OFF</span>Jules walk off / Hannah comes on</div><div class="detail">Just Got Paid</div></div></div>
 <div class="sh"><span class="sh-pill">Slot 22 — Justin</span><div class="sh-line"></div></div>
-<div class="row speech"><div class="time-col">15:52</div><div class="dur-col">30s</div><div class="body"><div class="title"><span class="badge b-speech">HANNAH</span>Hannah introduces Justin</div><div class="detail">Mic 12</div></div></div>
+<div class="row speech"><div class="time-col">15:52</div><div class="dur-col">30s</div><div class="body"><div class="title"><span class="badge b-speech">HANNAH</span>Hannah introduces Justin</div><div class="detail">Mic 12
+<div class="cam-note">Hannah photo slide — 1st time on screen</div></div></div></div>
 <div class="row perf"><div class="time-col">15:52</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Justin Walk On — START CLOCK 00:07:00</div><div class="detail">Bambaleo</div><div class="speakers"><div class="spk"><div><div class="spk-name">Justin</div><div class="spk-role">Presenter</div></div></div></div></div></div>
-<div class="row speech"><div class="time-col">15:53</div><div class="dur-col">7m</div><div class="body"><div class="title"><span class="badge b-speech">JUSTIN</span>Justin presents incl. VT_19_CHARLES [3:54]</div><div class="detail">Mic 9 P4 · UW logo to side screen for Charles video</div><div class="speakers"><div class="spk"><div><div class="spk-name">Justin</div><div class="spk-role">Presenter · Mic 9</div></div></div></div></div></div>
+<div class="row speech"><div class="time-col">15:53</div><div class="dur-col">7m</div><div class="body"><div class="title"><span class="badge b-speech">JUSTIN</span>Justin presents incl. VT_19_CHARLES [3:54]</div><div class="detail">Mic 9 P4 · UW logo to side screen for Charles video</div><div class="speakers"><div class="spk"><div><div class="spk-name">Justin</div><div class="spk-role">Presenter · Mic 9
+<div class="cam-note">Justin on stage · UW logo to side screen during Charles video</div></div></div></div></div></div></div>
 <div class="row perf"><div class="time-col">16:00</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK OFF</span>Justin walk off / Hannah appears</div></div></div>
 <div class="sh"><span class="sh-pill">Slot 23 — Wes (Closing)</span><div class="sh-line"></div></div>
 <div class="row speech"><div class="time-col">16:00</div><div class="dur-col">1m</div><div class="body"><div class="title"><span class="badge b-speech">HANNAH</span>Hannah introduces Wes</div><div class="detail">Mic 12</div></div></div>
 <div class="row perf"><div class="time-col">16:01</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Wes Walk On — START CLOCK 00:20:00</div><div class="detail">All 6 cold sparks · Wes to select</div><div class="speakers"><div class="spk"><div><div class="spk-name">Wes</div><div class="spk-role">Host / MC</div></div></div></div></div></div>
-<div class="row speech"><div class="time-col">16:01</div><div class="dur-col">20m</div><div class="body"><div class="title"><span class="badge b-speech">WES</span>Wes closes show [00:20:00]</div><div class="detail">Mic 1 · VT_20_TBC (supplied by Abi) · Sound effect for knock · Wes likely brings on family incl. baby Bobby at end · ⭐ Stay for baby moment!</div><div class="speakers"><div class="spk"><div><div class="spk-name">Wes</div><div class="spk-role">Host / MC · Mic 1</div></div></div></div></div></div>
+<div class="row speech"><div class="time-col">16:01</div><div class="dur-col">20m</div><div class="body"><div class="title"><span class="badge b-speech">WES</span>Wes closes show [00:20:00]</div><div class="detail">Mic 1 · VT_20_TBC (supplied by Abi) · Sound effect for knock · Wes likely brings on family incl. baby Bobby at end · ⭐ Stay for baby moment!</div><div class="speakers"><div class="spk"><div><div class="spk-name">Wes</div><div class="spk-role">Host / MC · Mic 1
+<div class="cam-note">Wes on stage · ⭐ Stay for baby Bobby moment at end — be ready!</div></div></div></div></div></div></div>
 <div class="row perf"><div class="time-col">16:21</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK OFF</span>Wes Walk Off</div><div class="detail">All 6 cold sparks · Daddy Cool</div></div></div>
 <div class="sh"><span class="sh-pill">Close</span><div class="sh-line"></div></div>
 <div class="row dim"><div class="time-col">16:22</div><div class="dur-col"></div><div class="body"><div class="title"><span class="badge b-vog">VOG</span>VOG — End of Amplify</div><div class="detail">Venue + merch stand open until 17:30</div></div></div>
