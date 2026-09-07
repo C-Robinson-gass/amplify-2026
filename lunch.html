@@ -166,6 +166,22 @@
     display: inline-block;
   }
 
+
+  .cam-note {
+    display: flex; align-items: flex-start; gap: 6px;
+    margin-top: 5px; padding: 5px 8px;
+    background: rgba(255, 180, 0, 0.07);
+    border: 1px solid rgba(255, 180, 0, 0.2);
+    border-radius: 6px;
+    font-size: 11px; color: #ffcc44;
+    line-height: 1.4;
+  }
+  .cam-note::before {
+    content: '🎥';
+    flex-shrink: 0;
+    font-size: 12px;
+  }
+
 </style>
 </head>
 <body>
@@ -203,8 +219,10 @@
 <div class="row dim"><div class="time-col">14:25</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-vog">VOG</span>VOG 12 — Remaining achievers backstage</div></div></div>
 <div class="row vt"><div class="time-col">14:25</div><div class="dur-col">33s</div><div class="body"><div class="title"><span class="badge b-vt">VT</span>VT_15_CAT_RECOGNITION_B</div><div class="detail">VT Audio P4</div></div></div>
 <div class="row dim"><div class="time-col">14:25</div><div class="dur-col">3m30</div><div class="body"><div class="title"><span class="badge b-dj">DJ</span>DJ one more song after video</div><div class="detail">Flo cues reco ready · DJ continues if not ready</div></div></div>
-<div class="row reco"><div class="time-col">14:29</div><div class="dur-col">12m</div><div class="body"><div class="title"><span class="badge b-reco">RECOGNITION</span>MASS RECOGNITION [12:00]</div><div class="detail">Group 1 — TLs (~281 pax) VOG 13 · Poi artists lead · Group 2 — STLs (~62 pax) VOG 14 · Group 3 — 20+ (~332 pax) VOG 15 · Group 4 — 50+ (~89 pax) VOG 16 · Group 5 — 100+ (~26 pax) VOG 17 · Group 6 — 200–1000+ (~20 pax) VOG 18 · Group reco photos</div></div></div>
-<div class="row dim"><div class="time-col">14:41</div><div class="dur-col">3m</div><div class="body"><div class="title"><span class="badge b-dj">DJ</span>DJ — Dolly Parton 9-5 [03:00]</div><div class="detail">Audience shots of singing and dancing</div></div></div>
+<div class="row reco"><div class="time-col">14:29</div><div class="dur-col">12m</div><div class="body"><div class="title"><span class="badge b-reco">RECOGNITION</span>MASS RECOGNITION [12:00]</div><div class="detail">Group 1 — TLs (~281 pax) VOG 13 · Poi artists lead · Group 2 — STLs (~62 pax) VOG 14 · Group 3 — 20+ (~332 pax) VOG 15 · Group 4 — 50+ (~89 pax) VOG 16 · Group 5 — 100+ (~26 pax) VOG 17 · Group 6 — 200–1000+ (~20 pax) VOG 18 · Group reco photos
+<div class="cam-note">Lots of big group reco photos</div></div></div></div>
+<div class="row dim"><div class="time-col">14:41</div><div class="dur-col">3m</div><div class="body"><div class="title"><span class="badge b-dj">DJ</span>DJ — Dolly Parton 9-5 [03:00]</div><div class="detail">Audience shots of singing and dancing
+<div class="cam-note">Audience shots of singing and dancing</div></div></div></div>
 <div class="sh"><span class="sh-pill">Slot 14 — Welcome Back</span><div class="sh-line"></div></div>
 <div class="row dim"><div class="time-col">14:44</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-vog">VOG</span>VOG 12 — Welcome back Wes</div></div></div>
 <div class="row perf"><div class="time-col">14:44</div><div class="dur-col">20s</div><div class="body"><div class="title"><span class="badge b-perf">WALK ON</span>Wes Walk On</div></div></div>
